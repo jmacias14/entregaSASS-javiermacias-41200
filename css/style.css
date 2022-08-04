@@ -1,9 +1,13 @@
 .contenido {
   display: flex;
-  justify-content: center; }
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; }
   .contenido div {
     width: 90%;
     height: 100px;
     border: 5px solid gray;
     margin: 0;
-    background-color: aqua; }
+    background: linear-gradient(to right, #ba5370, #f4e2d8); }
+    .contenido div:hover {
+      background: linear-gradient(to right, #ff4b1f, #1fddff); }

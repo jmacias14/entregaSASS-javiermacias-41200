@@ -1,11 +1,22 @@
+
+$fondo1: linear-gradient(to right, #ba5370, #f4e2d8);
+$fondo2: linear-gradient(to right, #ff4b1f, #1fddff);
+
+
 .contenido{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     div {
         width: 90%;
         height: 100px;
         border: 5px solid gray;
         margin: 0;
-        background-color: aqua;
+        background: $fondo1;
+        &:hover {
+            background: $fondo2;
+        }
     }
-    display: flex;
-    justify-content: center;
+ 
 }
